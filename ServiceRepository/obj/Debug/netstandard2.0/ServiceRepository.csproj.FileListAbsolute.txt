@@ -1,0 +1,16 @@
+C:\Users\Matheus-PC\Desktop\razorDynamicForm\ServiceRepository\bin\Debug\netstandard2.0\ServiceRepository.deps.json
+C:\Users\Matheus-PC\Desktop\razorDynamicForm\ServiceRepository\bin\Debug\netstandard2.0\ServiceRepository.dll
+C:\Users\Matheus-PC\Desktop\razorDynamicForm\ServiceRepository\bin\Debug\netstandard2.0\ServiceRepository.pdb
+C:\Users\Matheus-PC\Desktop\razorDynamicForm\ServiceRepository\bin\Debug\netstandard2.0\DataAccessLayer.dll
+C:\Users\Matheus-PC\Desktop\razorDynamicForm\ServiceRepository\bin\Debug\netstandard2.0\DTO.dll
+C:\Users\Matheus-PC\Desktop\razorDynamicForm\ServiceRepository\bin\Debug\netstandard2.0\DataAccessLayer.pdb
+C:\Users\Matheus-PC\Desktop\razorDynamicForm\ServiceRepository\bin\Debug\netstandard2.0\DTO.pdb
+C:\Users\Matheus-PC\Desktop\razorDynamicForm\ServiceRepository\obj\Debug\netstandard2.0\ServiceRepository.csprojAssemblyReference.cache
+C:\Users\Matheus-PC\Desktop\razorDynamicForm\ServiceRepository\obj\Debug\netstandard2.0\ServiceRepository.csproj.CoreCompileInputs.cache
+C:\Users\Matheus-PC\Desktop\razorDynamicForm\ServiceRepository\obj\Debug\netstandard2.0\ServiceRepository.AssemblyInfoInputs.cache
+C:\Users\Matheus-PC\Desktop\razorDynamicForm\ServiceRepository\obj\Debug\netstandard2.0\ServiceRepository.AssemblyInfo.cs
+C:\Users\Matheus-PC\Desktop\razorDynamicForm\ServiceRepository\obj\Debug\netstandard2.0\ServiceRepository.csproj.CopyComplete
+C:\Users\Matheus-PC\Desktop\razorDynamicForm\ServiceRepository\obj\Debug\netstandard2.0\ServiceRepository.dll
+C:\Users\Matheus-PC\Desktop\razorDynamicForm\ServiceRepository\obj\Debug\netstandard2.0\ServiceRepository.pdb
+C:\Users\Matheus-PC\Desktop\razorDynamicForm\ServiceRepository\bin\Debug\netstandard2.0\Database1.mdf
+C:\Users\Matheus-PC\Desktop\razorDynamicForm\ServiceRepository\bin\Debug\netstandard2.0\Database1_log.ldf
