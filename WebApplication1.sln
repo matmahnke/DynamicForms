@@ -11,7 +11,7 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BusinessRules", "businessru
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DTO", "dto\DTO.csproj", "{45CE370D-AE14-4FD3-B206-C12B64C57C21}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ServiceRepository", "ServiceRepository\ServiceRepository.csproj", "{3DF7D448-CEB0-4173-A409-1808251A10AF}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ServiceRepository", "ServiceRepository\ServiceRepository.csproj", "{3DF7D448-CEB0-4173-A409-1808251A10AF}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution

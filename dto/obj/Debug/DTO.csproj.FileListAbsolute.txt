@@ -39,3 +39,10 @@ C:\Users\Matheus-PC\Desktop\razorDynamicForm\dto\obj\Debug\DTO.csproj.CoreCompil
 C:\Users\Matheus-PC\Desktop\razorDynamicForm\dto\obj\Debug\DTO.csproj.CopyComplete
 C:\Users\Matheus-PC\Desktop\razorDynamicForm\dto\obj\Debug\DTO.dll
 C:\Users\Matheus-PC\Desktop\razorDynamicForm\dto\obj\Debug\DTO.pdb
+C:\Users\mathe\Documents\GitHub\DynamicForms\bin\dotnet\DTO.dll
+C:\Users\mathe\Documents\GitHub\DynamicForms\bin\dotnet\DTO.pdb
+C:\Users\mathe\Documents\GitHub\DynamicForms\dto\obj\Debug\DTO.csprojAssemblyReference.cache
+C:\Users\mathe\Documents\GitHub\DynamicForms\dto\obj\Debug\DTO.csproj.CoreCompileInputs.cache
+C:\Users\mathe\Documents\GitHub\DynamicForms\dto\obj\Debug\DTO.csproj.CopyComplete
+C:\Users\mathe\Documents\GitHub\DynamicForms\dto\obj\Debug\DTO.dll
+C:\Users\mathe\Documents\GitHub\DynamicForms\dto\obj\Debug\DTO.pdb

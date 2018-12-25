@@ -1,0 +1,33 @@
+﻿@model WebApplication1.Models.GridViewModel
+@{
+    ViewBag.Title = "Index";
+}
+
+<h2>@Model.Entity.Description</h2>
+
+<p>
+    @Html.ActionLink("Create New", "Create","Form", new { customEntityId = (int)ViewBag.customEntityID }, null)
+</p>
+<table class="table">
+    <tr>
+        @foreach (var field in Model.Fields.FirstOrDefault())
+        {
+            <th>
+                <span>@field.Item1.Label</span>
+            </th>
+        }
+    </tr>
+
+    @foreach (var row in Model.Fields)
+    {
+        <tr>
+            @foreach (var fields in row)
+            {
+                <td>
+                    @Html.DisplayFor(modelItem => fields.Item2)
+                </td>
+            }
+        </tr>
+    }
+
+</table>

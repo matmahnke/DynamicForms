@@ -127,6 +127,7 @@
     <Compile Include="Controllers\EntityController.cs" />
     <Compile Include="Controllers\FieldController.cs" />
     <Compile Include="Controllers\FormController.cs" />
+    <Compile Include="Controllers\GridController.cs" />
     <Compile Include="Controllers\HomeController.cs" />
     <Compile Include="Controllers\PageController.cs" />
     <Compile Include="Global.asax.cs">
@@ -137,6 +138,8 @@
     <Compile Include="Models\CustomFieldViewModel.cs" />
     <Compile Include="Models\EntityViewModel.cs" />
     <Compile Include="Models\FieldViewModel.cs" />
+    <Compile Include="Models\GridViewModel.cs" />
+    <Compile Include="Models\FormViewModel.cs" />
     <Compile Include="Models\PageViewModel.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
     <Compile Include="WEB\ResourceErrorMessages.Designer.cs">
@@ -187,6 +190,8 @@
     <Content Include="Views\CustomField\Create.cshtml" />
     <Content Include="Views\Page\Create.cshtml" />
     <Content Include="Views\Component\Create.cshtml" />
+    <Content Include="Views\Form\Create.cshtml" />
+    <Content Include="Views\Grid\Index.cshtml" />
   </ItemGroup>
   <ItemGroup>
     <Folder Include="App_Data\" />
@@ -209,6 +214,10 @@
     <ProjectReference Include="..\businessrules\BusinessRules.csproj">
       <Project>{531f18a0-7388-41a1-b28f-3441d43dfa01}</Project>
       <Name>BusinessRules</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\dataaccesslayer\DataAccessLayer.csproj">
+      <Project>{AED1E71E-911F-4CA7-8C4E-6D08A1218E01}</Project>
+      <Name>DataAccessLayer</Name>
     </ProjectReference>
     <ProjectReference Include="..\dto\DTO.csproj">
       <Project>{45ce370d-ae14-4fd3-b206-c12b64c57c21}</Project>

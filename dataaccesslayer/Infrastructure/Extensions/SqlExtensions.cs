@@ -8,7 +8,7 @@ using System.Threading.Tasks;
 
 namespace DataAccessLayer.Infrastructure.Extensions
 {
-    static class SqlExtensions
+    public static class SqlExtensions
     {
         public static T ToObject<T>(this DataRow row)
         {
@@ -51,6 +51,21 @@ namespace DataAccessLayer.Infrastructure.Extensions
             foreach (DataRow row in table.Rows)
             {
                 items.Add(ToObject(row, obj));
+            }
+            return items;
+        }
+
+        public static List<List<Tuple<string, string>>> ToTupleCollection(this DataTable table)
+        {
+            List<List<Tuple<string, string>>> items = new List<List<Tuple<string, string>>>();
+            foreach (DataRow row in table.Rows)
+            {
+                var list = new List<Tuple<string, string>>();
+                foreach (DataColumn column in table.Columns)
+                {
+                    list.Add(new Tuple<string, string>(column.ColumnName, row[column.ColumnName].ToString()));
+                }
+                items.Add(list);
             }
             return items;
         }

@@ -51,11 +51,12 @@
   },
   "libraries": {
     "Microsoft.NETCore.Platforms/1.1.0": {
-      "sha512": "JNQCGqAqXHhIUVhAD0Hd65X7G7yTADZBeCl9xlIKKB4SL0GQeY26R80TAm0R+8P19YrC2M6A3Sn+gU7RBGbgSw==",
+      "sha512": "bLpT1f/SFlO1CzqXG12KnJzpZs6lv24uX2Rzi4Fmm0noJpNlnWRVryuO3yK18Ca04t/YHcO1e1Z0WDfjseqNzw==",
       "type": "package",
       "path": "microsoft.netcore.platforms/1.1.0",
       "files": [
         ".nupkg.metadata",
+        ".signature.p7s",
         "ThirdPartyNotices.txt",
         "dotnet_library_license.txt",
         "lib/netstandard1.0/_._",
@@ -211,23 +212,23 @@
     ]
   },
   "packageFolders": {
-    "C:\\Users\\Matheus-PC\\.nuget\\packages\\": {},
+    "C:\\Users\\mathe\\.nuget\\packages\\": {},
     "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\Matheus-PC\\Desktop\\razorDynamicForm\\ServiceRepository\\ServiceRepository.csproj",
+      "projectUniqueName": "C:\\Users\\mathe\\Documents\\GitHub\\DynamicForms\\ServiceRepository\\ServiceRepository.csproj",
       "projectName": "ServiceRepository",
-      "projectPath": "C:\\Users\\Matheus-PC\\Desktop\\razorDynamicForm\\ServiceRepository\\ServiceRepository.csproj",
-      "packagesPath": "C:\\Users\\Matheus-PC\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\Matheus-PC\\Desktop\\razorDynamicForm\\ServiceRepository\\obj\\",
+      "projectPath": "C:\\Users\\mathe\\Documents\\GitHub\\DynamicForms\\ServiceRepository\\ServiceRepository.csproj",
+      "packagesPath": "C:\\Users\\mathe\\.nuget\\packages\\",
+      "outputPath": "C:\\Users\\mathe\\Documents\\GitHub\\DynamicForms\\ServiceRepository\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
       ],
       "configFilePaths": [
-        "C:\\Users\\Matheus-PC\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Users\\mathe\\AppData\\Roaming\\NuGet\\NuGet.Config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
       ],
       "originalTargetFrameworks": [
@@ -240,11 +241,11 @@
       "frameworks": {
         "netstandard2.0": {
           "projectReferences": {
-            "C:\\Users\\Matheus-PC\\Desktop\\razorDynamicForm\\dataaccesslayer\\DataAccessLayer.csproj": {
-              "projectPath": "C:\\Users\\Matheus-PC\\Desktop\\razorDynamicForm\\dataaccesslayer\\DataAccessLayer.csproj"
+            "C:\\Users\\mathe\\Documents\\GitHub\\DynamicForms\\dataaccesslayer\\DataAccessLayer.csproj": {
+              "projectPath": "C:\\Users\\mathe\\Documents\\GitHub\\DynamicForms\\dataaccesslayer\\DataAccessLayer.csproj"
             },
-            "C:\\Users\\Matheus-PC\\Desktop\\razorDynamicForm\\dto\\DTO.csproj": {
-              "projectPath": "C:\\Users\\Matheus-PC\\Desktop\\razorDynamicForm\\dto\\DTO.csproj"
+            "C:\\Users\\mathe\\Documents\\GitHub\\DynamicForms\\dto\\DTO.csproj": {
+              "projectPath": "C:\\Users\\mathe\\Documents\\GitHub\\DynamicForms\\dto\\DTO.csproj"
             }
           }
         }

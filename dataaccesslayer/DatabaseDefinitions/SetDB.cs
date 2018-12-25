@@ -1,5 +1,6 @@
 ﻿using DataAccessLayer.Infrastructure;
 using DTO.DataAnnotations;
+using DTO.Entities;
 using System;
 using System.Collections.Generic;
 using System.Data.SqlClient;
@@ -27,9 +28,26 @@ namespace DTO.DatabaseDefinitions
         /// </summary>
         public SetDB(bool DropExistingDB = false)
         {
-            if(DropExistingDB)
-            Create();
+            if (DropExistingDB)
+                Create();
         }
+
+
+        public void Create(Entity entity, IEnumerable<Field> fields)
+        {
+            string Query = "CREATE TABLE [dbo].[" + entity.DbName + "] (";
+
+            Query += "[ID] INT IDENTITY (1, 1) NOT NULL,";
+            foreach (var field in fields)
+            {
+                Query += " [" + field.Name + "] " + field.DbType + " " + ((field.Required) ? "NULL" : "NOT NULL") + ",";
+            }
+            Query += " [Ativo] BIT NOT NULL,";
+            Query += "    PRIMARY KEY CLUSTERED([Id] ASC)                " +
+                ");";
+            new DBExecuter().Execute(new SqlCommand(Query));
+        }
+
         public void Create()
         {
             //Disney World

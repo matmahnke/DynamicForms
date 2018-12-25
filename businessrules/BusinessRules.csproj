@@ -46,6 +46,7 @@
     <Compile Include="Impl\CustomFieldBusiness.cs" />
     <Compile Include="Impl\EntityBusiness.cs" />
     <Compile Include="Impl\FieldBusiness.cs" />
+    <Compile Include="Impl\FormBusiness.cs" />
     <Compile Include="Impl\PageBusiness.cs" />
     <Compile Include="StartUpBusiness.cs" />
     <Compile Include="Validator\BaseValidator.cs" />

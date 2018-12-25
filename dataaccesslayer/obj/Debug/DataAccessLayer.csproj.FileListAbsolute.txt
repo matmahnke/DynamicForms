@@ -38,3 +38,14 @@ C:\Users\Matheus-PC\Desktop\razorDynamicForm\dataaccesslayer\obj\Debug\DataAcces
 C:\Users\Matheus-PC\Desktop\razorDynamicForm\dataaccesslayer\obj\Debug\DataAccessLayer.pdb
 C:\Users\Matheus-PC\Desktop\razorDynamicForm\dataaccesslayer\bin\Debug\Database1.mdf
 C:\Users\Matheus-PC\Desktop\razorDynamicForm\dataaccesslayer\bin\Debug\Database1_log.ldf
+C:\Users\mathe\Documents\GitHub\DynamicForms\dataaccesslayer\bin\Debug\CurrentDB.mdf
+C:\Users\mathe\Documents\GitHub\DynamicForms\dataaccesslayer\bin\Debug\CurrentDB_log.ldf
+C:\Users\mathe\Documents\GitHub\DynamicForms\dataaccesslayer\bin\Debug\DataAccessLayer.dll
+C:\Users\mathe\Documents\GitHub\DynamicForms\dataaccesslayer\bin\Debug\DataAccessLayer.pdb
+C:\Users\mathe\Documents\GitHub\DynamicForms\dataaccesslayer\bin\Debug\DTO.dll
+C:\Users\mathe\Documents\GitHub\DynamicForms\dataaccesslayer\bin\Debug\DTO.pdb
+C:\Users\mathe\Documents\GitHub\DynamicForms\dataaccesslayer\obj\Debug\DataAccessLayer.csprojAssemblyReference.cache
+C:\Users\mathe\Documents\GitHub\DynamicForms\dataaccesslayer\obj\Debug\DataAccessLayer.csproj.CoreCompileInputs.cache
+C:\Users\mathe\Documents\GitHub\DynamicForms\dataaccesslayer\obj\Debug\DataAccessLayer.csproj.CopyComplete
+C:\Users\mathe\Documents\GitHub\DynamicForms\dataaccesslayer\obj\Debug\DataAccessLayer.dll
+C:\Users\mathe\Documents\GitHub\DynamicForms\dataaccesslayer\obj\Debug\DataAccessLayer.pdb
